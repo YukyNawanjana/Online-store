@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Top Nav Bar */
+
+.topnav{
+    background: #12C039;
+    height: fit-content;
+}
+.topnav h3{
+    position: relative;
+    margin: 0px;
+    font-size: 16px;
+    padding: 5px 0px;
+    color: #fff;
+}
+.nav{
+    color: #12C039;
+}
+.navbar-light .navbar-brand{
+    color: #12C039;
+    font-weight: 700;
+
+}
+.nav-item .nav-link{
+    color: #12C039 !important;
+    font-weight: 500;
+
+}
+.navbar-toggler{
+    background: #12C039 !important;
+    border: 2px solid #14a033;
+}
+.active-nav .nav-link{
+    color: #14a033 !important ;
+}
+/* Home secion */
+
+.home{
+    width: 100%;
+    height: 70vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.472), rgba(0, 0, 0, 0.637)), url('../images/bg1.jpg') no-repeat center;
+    background-size: cover;
+    padding: 50px 20px 10px 20px;
+    position: relative;
+}
+.home-text{
+    margin-top: 70px;
+    color: #fff;
+}
+.home-text h2{
+    margin-bottom: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+.home-text h1{
+    margin-bottom: 0px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.home-text p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.home-btn{
+    position: relative;
+    margin: 0 auto;
+    padding: 10px 60px;
+    border:none;
+    display: block;
+    color: #fff;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    background: #12C039;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+}
+.home-btn:hover{
+    color: #fff;
+    background: #14a033;
+}
+
+
+.icon-section{
+    padding: 50px 20px;
+}
+.icon-box{
+    border: 3px solid #12C039;
+    width: 140px;
+    height: 140px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    
+}
+.icon-box img{
+    height: 80px;
+    position: relative;
+    margin: auto;
+    display: block;
+    top: 15px;
+    color: #12C039;
+}
+.icon{
+    margin-bottom: 30px;
+}
+.icon h3{
+    color: #12C039;
+}
+.icon p{
+    color: #14a033;
+}
+
+/*product */
+.card{
+    width: 15rem;
+}
+.product{
+    padding: 60px 20px;
+    background: #f8f9fa;
+}
+.product p,.product-text{
+    font-weight: 500;
+    color: #14a033;
+}
+.product h4{
+    color: #17b639df;
+}
+.line{
+    width: 340px;
+    height: 5px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background: #12C039;
+}
+
+.btn-add{
+    position: relative;
+    margin: 0 auto;
+    padding: 8px 60px;
+    border:none;
+    display: block;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    background: #12C039;
+}
+.btn-add:hover{
+    color: #fff;
+    background: #14a033;
+}
+.sale{
+    position: absolute;
+    background: #12c039;
+    padding: 5px;
+    width: 50px;
+    border-radius: 50px;
+    height: 52px;
+    top: 5px;
+    left: 5px;
+}
+.sale p{
+    color: #fff;
+    position: absolute;
+    top: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    left: 7px;
+}
+
+.card{
+    display: block;
+    margin:10px auto;
+}
+.banners{
+    padding: 80px 20px;
+}
+.banners .banner-img{
+    padding: 0 5px;
+}
+
+.single-animation{
+    opacity: 0;
+    animation: fadeDown .5s forwards;
+    animation-delay: 1.5s;
+}
+
+/*promotion section */
+
+.promotion{
+    width: 100%;
+    height: 70vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.472), rgba(0, 0, 0, 0.637)), url('../images/bg2.jpg') no-repeat center;
+    background-size: cover;
+    padding: 50px 20px;
+    position: relative;
+}
+.promotion-text{
+    padding: 30px;
+    margin: 0px;
+    position: relative;
+    top: 86px;
+    color: #f8f9fa;
+}
+.promotion-text p{
+    font-weight: 500;
+}
+.email-sub{
+    padding: 80px 20px;
+    background: #f8f9fa;
+}
+.email-sub h3,h2{
+    color: #12C039;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.email-input{
+    padding-top: 50px;
+}
+.btn-success{
+    background: #12C039;
+    border: #12C039;
+    font-weight: 500;
+}
+.btn-success:hover{
+    background: #14a033;
+    border: #14a033;
+}
+footer{
+    background: #12c039;
+}
+.footer{
+    padding: 30px 0px;
+    color: #fff;
+}
+.footer .footer-logo{
+    text-align: center;
+    color: #fff;
+    size: 2rem;
+    font-weight: 700;
+}
+.footer-logo img{
+    height: 50px;
+}
+.copyright{
+    height: fit-content;
+    background: #273746;
+}
+.copyright p{
+    margin: 10px 0;
+    color: #fff;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeDown{
+    0%{
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+}
+
+@keyframes grow{
+    0%{
+        width: 0;
+
+    }
+    100%{
+        opacity: 1;
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    .home{
+        height: 100vh;
+    }
+    .card{
+        width: 10.5rem;
+    }
+    .btn-add{
+        position: relative;
+        padding: 8px 0px;
+        color: #fff;
+        text-align: center;
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .home{
+        height: 100vh;
+    }
+    .card{
+        width: 18rem;
+    }
+    .btn-add{
+        position: relative;
+        padding: 10px 0px;
+        color: #fff;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    .promotion{
+        width: 100%;
+        height: 70vh;
+        padding:10px 0 20px 0;
+    }
+    .promotion-text{
+        padding: 20px;
+        top: 56px;
+        color: #f8f9fa;
+    }
+}
+
+@media screen and (min-width: 320px){
+    .home{
+        height: 100vh;
+    }
+    .line{
+        width: 250px !important;
+    }
+}
